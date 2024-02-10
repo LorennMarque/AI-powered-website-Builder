@@ -11,4 +11,4 @@ print(load_config())
 
 # Prepare promt
 # Send prompt to llama-2
-# Give 3 suggestions
+# Give sugestions
