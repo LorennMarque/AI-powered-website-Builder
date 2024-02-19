@@ -29,10 +29,10 @@ An online composition canvas will be implemented where users will be able to ass
 
 | Stage                                      | Completed | Date       |
 |--------------------------------------------|-----------|------------|
-| Design of Sections and Components          |    [ ]    | YYYY-MM-DD |
-| Programming                                |    [ ]    | YYYY-MM-DD |
-| Creation of Web Page to Search / Filter    |    [ ]    | YYYY-MM-DD |
-| Creation of Online Composition Canvas      |    [ ]    | YYYY-MM-DD |
+| Design of Sections and Components          |    [❌]    | YYYY-MM-DD |
+| Programming                                |    [❌]    | YYYY-MM-DD |
+| Creation of Web Page to Search / Filter    |    [❌]    | YYYY-MM-DD |
+| Creation of Online Composition Canvas      |    [❌]    | YYYY-MM-DD |
 
 
 ## Future (possible and unnecesary) Improvements
