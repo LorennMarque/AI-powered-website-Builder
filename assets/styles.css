@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+.name {
+  font-family: "Allison", cursive;
+  font-size: 3rem;
+  /* color: rgb(255, 255, 255); */
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  /* font-weight: 800; */
+}
+
+.bg-andes {
+  background-color: #000000;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #000000 10px
+    ),
+    repeating-linear-gradient(#1e1e1e55, #1e1e1e);
+}
+
+.mainTitle {
+  font-size: 3.29rem;
+}
+
+.subheader, .cta-text{
+  font-size: 1.26rem;
+}
+
+.big-cta-text{
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .mainTitle {
+        font-size: 3rem;
+      }
+
+      .small-center{
+        text-align: center;
+      }
+      
+      .subheader, .cta-text{
+        font-size: 1.14rem;
+      }
+      
+}
+
+#banner {
+  position: relative;
+  min-height: 70vh;
+  padding: 2% 0;
+  overflow: hidden;
+  height: 40vh;
+}
+
+#key-features {
+  padding: 5% 0;
+}
+
+.feature {
+  font-size: 1.5rem;
+}
+.key {
+  font-size: 16px;
+  background-image: linear-gradient(to right, #ff6bfd, #bf6cff);
+  padding: 3px;
+  color: #f7f7f7;
+  border-radius: 100%;
+}
+
+.keynt {
+  font-size: 16px;
+  background-color: rgba(128, 128, 128, 0.38);
+  padding: 3px;
+  color: #f7f7f7;
+  border-radius: 100%;
+}
+
+.key strong {
+  color: rgb(0, 0, 0);
+}
+
+.key-content{
+    font-size: 1.26rem;
+}
+
+@media (max-width: 768px) {
+    .key-content{
+        font-size: 1.14rem;
+    }
+}
+
+.highlight {
+  color: var(--bs-primary);
+}
+
+@keyframes gradientMovement {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.text-gradient {
+  background-image: linear-gradient(to right, #ff6bfd, #bf6cff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientMovement 5s infinite linear; /* Adjust duration and timing function as needed */
+}
+
+iframe {
+  border-radius: 20px;
+  box-shadow: 0 0 40px 20px rgba(191, 108, 255, 0.5),
+    0 0 0 10px rgba(191, 108, 255, 0.5) inset;
+  border: 1px rgba(191, 108, 255, 0.5) solid;
+}
+
+#firstCta {
+  background-image: linear-gradient(to right, #ff6bfd, #bf6cff);
+  padding: 5% 0;
+}
+
+.question {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+#faq {
+  background-color: #f7f7f7;
+  padding: 10% 0;
+}
+
+#last-cta {
+  padding: 5% 0;
+  color: #f7f7f7;
+}
+
+.aclaracion {
+  color: rgb(71, 71, 71);
+  font-size: 17px;
+}
+
+#success {
+  height: 100vh;
+  width: 100%;
+  display: flex; /* Wrap the content in a flexbox */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+}
+#services {
+  padding: 5% 0;
+  background-color: #f7f7f7;
+}
+#pricing {
+  padding: 5% 0;
+  overflow-x: hidden;
+}
+
+#how {
+  padding: 5% 0;
+}
+
+#testimonial {
+  padding: 5% 0;
+  background-image: linear-gradient(to right, #ff6bfd, #bf6cff);
+}
+
+#testimonial i {
+  font-size: 190%;
+  color: white;
+  font-weight: bolder;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    height: 70vh;
+    
+}
+
+.column-left {
+background-color: rgb(255, 255, 255);
+width: 38.2%; /* 100% - 61.8% */
+padding: 90px;
+display: flex;
+flex-direction: column;
+justify-content: center; /* Align vertically */
+}
+
+.column-right {
+    width: 61.8%; /* Proporción áurea */
+    background-image: url("images/example.jpg");
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        height: 30vh;
+    }
+
+    .column-left{
+        width: 100%;
+        padding: 50px 0px ;
+
+    }
+    
+    .column-right{
+        display: none;
+    }
+}
+
+.max-50{
+    max-width: 50%;
+}
+
+.max-60{
+    max-width: 60%;
+}
+
+@media (max-width: 768px) {
+    .max-50{
+        max-width: 100%;
+    }
+    
+    .max-60{
+        max-width: 100%;
+    }
+}
+
+.max-center-50{
+    margin: 0 50px;
+}
+
+@media (max-width: 768px) {
+    .max-center-50{
+        margin: 0 25px;
+    }
+}
+
+.hero-concept-image{
+    width: 90%;
+    margin: 35px 10px;
+}
+
+#hero-2, #hero-3, #hero-4{
+    padding: 5% 0;
+}
+
+#hero-5{
+    padding: 12% 0;
+    background-color:rgb(86, 86, 86);
+    background-image:url("images/example.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
