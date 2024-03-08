@@ -3,6 +3,8 @@ Designing web pages always feels like a struggle for me. It takes longer than I 
 
 That's why I'm creating my own library. I want customizable elements in HTML/CSS and Adobe XD or Figma to quickly create eye-catching websites without worrying about design, loading times, or SEO optimization.
 
+> Update! 2024-03-07: Ended up Designing all *31 components* on paper instead of Adobe XD probably will programm and tweak all components before designing them on Adobe XD. So far the code is awefull. Probably will require some CSS refactoring a better class naming.
+
 ## Aim
 
 This project aims to create a set of high-performance web components, designed for fast loading times and optimized for SEO.
