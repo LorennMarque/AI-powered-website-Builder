@@ -121,7 +121,7 @@ h3 {
   animation: gradientMovement 5s infinite linear; /* Adjust duration and timing function as needed */
 }
 
-iframe {
+.backglow {
   border-radius: 20px;
   box-shadow: 0 0 40px 20px rgba(191, 108, 255, 0.5),
     0 0 0 10px rgba(191, 108, 255, 0.5) inset;
@@ -362,4 +362,13 @@ img{
 .textCTA{
   font-weight: bold;
   font-size: 1.7rem;
+}
+.whiteful{
+  filter: grayscale(100%) brightness(10000) ;
+
+}
+
+a{
+color: var(--bs-primary);
+font-weight:bold;
 }
